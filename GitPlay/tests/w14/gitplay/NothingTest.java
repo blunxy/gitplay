@@ -4,11 +4,13 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import static org.assertj.core.api.Assertions.*;
+
 public class NothingTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testName() throws Exception {
+		assertThat(2).isEqualTo(2);
 	}
 
 }
